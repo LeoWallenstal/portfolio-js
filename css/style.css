@@ -22,3 +22,24 @@ body {
 .gallery img:hover {
   transform: scale(1.05);
 }
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  background-color: #0056b3;
+}
+
